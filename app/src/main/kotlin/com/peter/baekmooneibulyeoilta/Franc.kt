@@ -1,11 +1,11 @@
 package com.peter.baekmooneibulyeoilta
 
-class Dollar(amount: Int) : Money(amount) {
+class Franc(amount: Int): Money(amount) {
     override fun times(multiplier: Int): Money {
-        return Dollar(amount * multiplier)
+        return Franc(amount * multiplier)
     }
 
     override fun currency(): String {
-        return "USD"
+        return "CHF"
     }
 }
