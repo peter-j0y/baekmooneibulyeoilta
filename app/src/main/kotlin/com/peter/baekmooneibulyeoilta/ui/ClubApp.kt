@@ -20,9 +20,7 @@ import com.peter.baekmooneibulyeoilta.ui.navigation.NavGraph
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun ClubApp(
-
-) {
+fun ClubApp() {
    var navigationSelectedItem by remember { mutableIntStateOf(0) }
    val navController = rememberNavController()
 
