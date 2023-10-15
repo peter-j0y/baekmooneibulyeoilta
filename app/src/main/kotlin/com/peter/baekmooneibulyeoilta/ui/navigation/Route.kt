@@ -1,4 +1,4 @@
-package com.peter.baekmooneibulyeoilta
+package com.peter.baekmooneibulyeoilta.ui.navigation
 
 const val HOME_ROUTE = "home"
 const val BOARD_ROUTE = "board"
